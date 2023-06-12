@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-05T19:56:12 IST" name="DataDrivenFramework" finished-at="2023-06-05T19:56:55 IST" duration-ms="43502">
+    <groups>
+    </groups>
+    <test started-at="2023-06-05T19:56:12 IST" name="LoginTest" finished-at="2023-06-05T19:56:34 IST" duration-ms="21659">
+      <class name="com.learning.testcases.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.learning.testcases.LoginTest@1e11bc55]" started-at="2023-06-05T19:56:12 IST" name="setUp" finished-at="2023-06-05T19:56:19 IST" duration-ms="7552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginTest(java.util.HashMap)[pri:0, instance:com.learning.testcases.LoginTest@1e11bc55]" started-at="2023-06-05T19:56:20 IST" name="LoginTest" data-provider="getExcelData" finished-at="2023-06-05T19:56:27 IST" duration-ms="7643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{registration_Username=angular, login_Username=angular, registration_Password=password}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning.testcases.LoginTest@1e11bc55]" started-at="2023-06-05T19:56:27 IST" name="tearDown" finished-at="2023-06-05T19:56:34 IST" duration-ms="6186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learning.testcases.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2023-06-05T19:56:34 IST" name="LogoutTest" finished-at="2023-06-05T19:56:55 IST" duration-ms="21374">
+      <class name="com.learning.testcases.LogoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.learning.testcases.LogoutTest@5851bd4f]" started-at="2023-06-05T19:56:34 IST" name="setUp" finished-at="2023-06-05T19:56:39 IST" duration-ms="4772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LogoutTest(java.util.HashMap)[pri:0, instance:com.learning.testcases.LogoutTest@5851bd4f]" started-at="2023-06-05T19:56:39 IST" name="LogoutTest" data-provider="getExcelData" finished-at="2023-06-05T19:56:49 IST" duration-ms="10412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{registration_Username=angular, login_Username=angular, registration_Password=password}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning.testcases.LogoutTest@5851bd4f]" started-at="2023-06-05T19:56:49 IST" name="tearDown" finished-at="2023-06-05T19:56:55 IST" duration-ms="6178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learning.testcases.LogoutTest -->
+    </test> <!-- LogoutTest -->
+  </suite> <!-- DataDrivenFramework -->
+</testng-results>
